@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Fb_suite">
+<test  name="Fb_test">
+<parameter name="browser" value="https://www.facebook.com/"></parameter>
+
+<parameter name="username_id" value="email"></parameter>
+<parameter name="password_id" value="pass"></parameter>
+<parameter name="username" value="tester@gmail.com"></parameter>
+<parameter name="password" value="tester@123"></parameter>
+<classes>
+<class name="testng.ReadFromXml"></class>
+</classes>
+
+</test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="first_suite">
+<test name="First_Test">
+<classes>
+<class name="testng.BrowserFunctionTestng"/>
+<class name="testng.NewTest"></class>
+
+
+</classes>
+
+
+
+
+
+</test>
+</suite>

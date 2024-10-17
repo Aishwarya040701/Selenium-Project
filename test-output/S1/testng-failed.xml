@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [S1]">
+  <test thread-count="5" name="t1(failed)">
+    <parameter name="mob_locator" value="reg_email__"/>
+    <parameter name="mob" value="1234567891"/>
+    <parameter name="pass" value="tester@1234"/>
+    <parameter name="browser" value="https://www.facebook.com/signup"/>
+    <parameter name="name" value="Aishu"/>
+    <parameter name="fname_locator" value="firstname"/>
+    <parameter name="lname_locator" value="lastname"/>
+    <parameter name="pass_locator" value="reg_email_confirmation__"/>
+    <parameter name="lastname" value="automation"/>
+    <classes>
+      <class name="testng.ReadFromXml2">
+        <methods>
+          <include name="fb_creation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testng.ReadFromXml2 -->
+    </classes>
+  </test> <!-- t1(failed) -->
+</suite> <!-- Failed suite [S1] -->

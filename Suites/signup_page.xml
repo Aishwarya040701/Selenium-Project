@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="S1">
+	<test name="t1">
+		<parameter name="browser" value="https://www.facebook.com/signup"></parameter>
+		<parameter name="fname_locator" value="firstname"></parameter>
+		<parameter name="lname_locator" value="lastname"></parameter>
+		<parameter name="mob_locator" value="reg_email__"></parameter>
+		<parameter name="pass_locator" value="reg_passwd__"></parameter>
+		<parameter name="name" value="Aishu"></parameter>
+		<parameter name="lastname" value="automation"></parameter>
+		<parameter name="mob" value="1234567891"></parameter>
+		<parameter name="pass" value="tester@1234"></parameter>
+
+		<classes>
+		
+			<class name="testng.ReadFromXml2"></class>
+
+		</classes>
+
+	</test>
+
+</suite>
